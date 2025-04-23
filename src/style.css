@@ -65,16 +65,18 @@ header {
   background-color: var(--selected-color);
 }
 
-.nav_item:not(:last-child, :first-child) {
+.nav_item {
   margin: 0 10px;
 }
 
 .nav_item:first-child {
   margin-right: 10px;
+  margin-left: 0;
 }
 
 .nav_item:last-child {
   margin-left: 10px;
+  margin-right: 0;
 }
 
 .nav_item:hover {
